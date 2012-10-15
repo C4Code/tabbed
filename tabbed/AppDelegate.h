@@ -1,0 +1,24 @@
+//
+//  AppDelegate.h
+//  tabbed
+//
+//  Created by moi on 12-10-15.
+//  Copyright (c) 2012 moi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "FirstWorkSpace.h"
+#import "SecondWorkSpace.h"
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) UITabBarController *tabBarController;
+
+@property (strong, nonatomic) FirstWorkSpace *firstWorkspace;
+@property (strong, nonatomic) SecondWorkSpace *secondWorkspace;
+
+@property (strong, nonatomic) C4CanvasController *firstWorkspaceController, *secondWorkspaceController;
+
+@end
