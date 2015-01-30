@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-//#import "FirstViewController.h"
-//#import "SecondViewController.h"
 
 @implementation AppDelegate
 @synthesize firstWorkspace, secondWorkspace;
@@ -18,10 +16,6 @@
     [C4View class]; //THIS NEEDS TO BE HERE SO THAT THE COMPILER LOADS THE C4View Class
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
-// Override point for customization after application launch.
-//    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-//    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     
     firstWorkspace = [[FirstWorkSpace alloc] initWithNibName:@"firstCanvas" bundle:nil];
     secondWorkspace = [[SecondWorkSpace alloc] initWithNibName:@"secondCanvas" bundle:nil];

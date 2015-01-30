@@ -13,14 +13,10 @@
 		EDA8509C162C6E0700147AD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDA8509A162C6E0700147AD5 /* InfoPlist.strings */; };
 		EDA8509E162C6E0700147AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA8509D162C6E0700147AD5 /* main.m */; };
 		EDA850A2162C6E0700147AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA850A1162C6E0700147AD5 /* AppDelegate.m */; };
-		EDA850A5162C6E0700147AD5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA850A4162C6E0700147AD5 /* FirstViewController.m */; };
 		EDA850A7162C6E0700147AD5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA850A6162C6E0700147AD5 /* first.png */; };
 		EDA850A9162C6E0700147AD5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA850A8162C6E0700147AD5 /* first@2x.png */; };
-		EDA850AC162C6E0700147AD5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA850AB162C6E0700147AD5 /* SecondViewController.m */; };
 		EDA850AE162C6E0700147AD5 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA850AD162C6E0700147AD5 /* second.png */; };
 		EDA850B0162C6E0700147AD5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA850AF162C6E0700147AD5 /* second@2x.png */; };
-		EDA850B3162C6E0700147AD5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA850B1162C6E0700147AD5 /* FirstViewController.xib */; };
-		EDA850B6162C6E0700147AD5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA850B4162C6E0700147AD5 /* SecondViewController.xib */; };
 		EDA850E7162C6FB700147AD5 /* libC4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA850E6162C6FB700147AD5 /* libC4.a */; };
 		EDA850EA162C70BE00147AD5 /* FirstWorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA850E9162C70BE00147AD5 /* FirstWorkSpace.m */; };
 		EDA850ED162C70D000147AD5 /* SecondWorkSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA850EC162C70D000147AD5 /* SecondWorkSpace.m */; };
@@ -51,16 +47,10 @@
 		EDA8509F162C6E0700147AD5 /* tabbed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tabbed-Prefix.pch"; sourceTree = "<group>"; };
 		EDA850A0162C6E0700147AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDA850A1162C6E0700147AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDA850A3162C6E0700147AD5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		EDA850A4162C6E0700147AD5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EDA850A6162C6E0700147AD5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		EDA850A8162C6E0700147AD5 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		EDA850AA162C6E0700147AD5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		EDA850AB162C6E0700147AD5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		EDA850AD162C6E0700147AD5 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		EDA850AF162C6E0700147AD5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		EDA850B2162C6E0700147AD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		EDA850B5162C6E0700147AD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		EDA850C3162C6FB700147AD5 /* C4AddSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4AddSubview.h; sourceTree = "<group>"; };
 		EDA850C4162C6FB700147AD5 /* C4AssertionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4AssertionHandler.h; sourceTree = "<group>"; };
 		EDA850C5162C6FB700147AD5 /* C4Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4Camera.h; sourceTree = "<group>"; };
@@ -180,12 +170,8 @@
 			children = (
 				EDA850A0162C6E0700147AD5 /* AppDelegate.h */,
 				EDA850A1162C6E0700147AD5 /* AppDelegate.m */,
-				EDA850A3162C6E0700147AD5 /* FirstViewController.h */,
-				EDA850A4162C6E0700147AD5 /* FirstViewController.m */,
 				EDA850A6162C6E0700147AD5 /* first.png */,
 				EDA850A8162C6E0700147AD5 /* first@2x.png */,
-				EDA850AA162C6E0700147AD5 /* SecondViewController.h */,
-				EDA850AB162C6E0700147AD5 /* SecondViewController.m */,
 				EDA850E8162C70BE00147AD5 /* FirstWorkSpace.h */,
 				EDA850E9162C70BE00147AD5 /* FirstWorkSpace.m */,
 				EDA850EB162C70D000147AD5 /* SecondWorkSpace.h */,
@@ -193,8 +179,6 @@
 				EDA850C0162C6F8000147AD5 /* C4 */,
 				EDA850AD162C6E0700147AD5 /* second.png */,
 				EDA850AF162C6E0700147AD5 /* second@2x.png */,
-				EDA850B1162C6E0700147AD5 /* FirstViewController.xib */,
-				EDA850B4162C6E0700147AD5 /* SecondViewController.xib */,
 				EDA85106162C777E00147AD5 /* firstCanvas.xib */,
 				EDA85108162C77BA00147AD5 /* secondCanvas.xib */,
 				EDA85098162C6E0700147AD5 /* Supporting Files */,
@@ -332,8 +316,6 @@
 				EDA850A9162C6E0700147AD5 /* first@2x.png in Resources */,
 				EDA850AE162C6E0700147AD5 /* second.png in Resources */,
 				EDA850B0162C6E0700147AD5 /* second@2x.png in Resources */,
-				EDA850B3162C6E0700147AD5 /* FirstViewController.xib in Resources */,
-				EDA850B6162C6E0700147AD5 /* SecondViewController.xib in Resources */,
 				EDA85107162C777E00147AD5 /* firstCanvas.xib in Resources */,
 				EDA85109162C77BA00147AD5 /* secondCanvas.xib in Resources */,
 				EDA85114162C7BBE00147AD5 /* C4Loop.aif in Resources */,
@@ -352,8 +334,6 @@
 			files = (
 				EDA8509E162C6E0700147AD5 /* main.m in Sources */,
 				EDA850A2162C6E0700147AD5 /* AppDelegate.m in Sources */,
-				EDA850A5162C6E0700147AD5 /* FirstViewController.m in Sources */,
-				EDA850AC162C6E0700147AD5 /* SecondViewController.m in Sources */,
 				EDA850EA162C70BE00147AD5 /* FirstWorkSpace.m in Sources */,
 				EDA850ED162C70D000147AD5 /* SecondWorkSpace.m in Sources */,
 			);
@@ -368,22 +348,6 @@
 				EDA8509B162C6E0700147AD5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EDA850B1162C6E0700147AD5 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDA850B2162C6E0700147AD5 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		EDA850B4162C6E0700147AD5 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDA850B5162C6E0700147AD5 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
