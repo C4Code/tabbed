@@ -20,7 +20,6 @@
     C4Log(@"%@ Setup called",self.title);
     
     self.canvas.backgroundColor = C4GREY;
-    self.title = @"Second";
     
     CGRect space = CGRectMake(0,0, 300, 200);
     C4Shape *rectangle = [C4Shape rect:space];
