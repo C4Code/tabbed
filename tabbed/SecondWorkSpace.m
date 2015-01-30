@@ -10,8 +10,14 @@
 
 @implementation SecondWorkSpace
 -(void)setup {
-    self.canvas.backgroundColor = C4RED;
+    self.canvas.backgroundColor = C4GREY;
     self.title = @"Second";
+    
+    CGRect space = CGRectMake(0,0, 300, 200);
+    C4Shape *rectangle = [C4Shape rect:space];
+    rectangle.center = CGPointMake(self.canvas.width/2, self.canvas.height/2);
+    
+    [self.canvas addShape:rectangle];
 }
 
 -(void)touchesBegan {

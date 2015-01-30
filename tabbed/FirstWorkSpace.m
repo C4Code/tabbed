@@ -9,9 +9,16 @@
 #import "FirstWorkSpace.h"
 
 @implementation FirstWorkSpace
+
 -(void)setup {
     self.canvas.backgroundColor = C4BLUE;
     self.title = @"First";
+    
+    CGRect space = CGRectMake(0,0, 200, 100);
+    C4Shape *rectangle = [C4Shape rect:space];
+    rectangle.center = CGPointMake(self.canvas.width/2, self.canvas.height/2);
+    
+    [self.canvas addShape:rectangle];
 }
 
 -(void)touchesBegan {
