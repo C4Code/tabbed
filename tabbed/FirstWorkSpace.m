@@ -10,9 +10,15 @@
 
 @implementation FirstWorkSpace
 
+-(void)viewDidLoad{
+    NSLog(@"view loaded");
+    [self setup];
+}
+
 -(void)setup {
+    C4Log(@"%@ Setup called",self.title);
+    
     self.canvas.backgroundColor = C4BLUE;
-    self.title = @"First";
     
     CGRect space = CGRectMake(0,0, 200, 100);
     C4Shape *rectangle = [C4Shape rect:space];

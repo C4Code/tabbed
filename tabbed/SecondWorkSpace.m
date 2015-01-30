@@ -9,7 +9,16 @@
 #import "SecondWorkSpace.h"
 
 @implementation SecondWorkSpace
+
+-(void)viewDidLoad{
+    NSLog(@"view loaded");
+    [self setup];
+}
+
 -(void)setup {
+    
+    C4Log(@"%@ Setup called",self.title);
+    
     self.canvas.backgroundColor = C4GREY;
     self.title = @"Second";
     
