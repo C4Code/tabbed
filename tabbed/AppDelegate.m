@@ -9,25 +9,12 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
-@synthesize firstWorkspace, secondWorkspace;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [C4View class]; //THIS NEEDS TO BE HERE SO THAT THE COMPILER LOADS THE C4View Class
     
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-//    firstWorkspace = [[FirstWorkSpace alloc] initWithNibName:@"firstCanvas" bundle:nil];
-//    secondWorkspace = [[SecondWorkSpace alloc] initWithNibName:@"secondCanvas" bundle:nil];
-    
-//    self.tabBarController = [[UITabBarController alloc] init];
-//    self.tabBarController.viewControllers = @[firstWorkspace, secondWorkspace];
-//    self.window.rootViewController = self.tabBarController;
-//    [self.window makeKeyAndVisible];
-//    [firstWorkspace setup];
-//    [secondWorkspace setup];
     return YES;
-
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

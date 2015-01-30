@@ -14,11 +14,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UITabBarController *tabBarController;
-
-@property (strong, nonatomic) FirstWorkSpace *firstWorkspace;
-@property (strong, nonatomic) SecondWorkSpace *secondWorkspace;
-
-@property (strong, nonatomic) C4CanvasController *firstWorkspaceController, *secondWorkspaceController;
-
 @end
