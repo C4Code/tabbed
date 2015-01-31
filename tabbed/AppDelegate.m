@@ -7,33 +7,14 @@
 //
 
 #import "AppDelegate.h"
-//#import "FirstViewController.h"
-//#import "SecondViewController.h"
 
 @implementation AppDelegate
-@synthesize firstWorkspace, secondWorkspace;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [C4View class]; //THIS NEEDS TO BE HERE SO THAT THE COMPILER LOADS THE C4View Class
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
-// Override point for customization after application launch.
-//    UIViewController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
-//    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
-    
-    firstWorkspace = [[FirstWorkSpace alloc] initWithNibName:@"firstCanvas" bundle:nil];
-    secondWorkspace = [[SecondWorkSpace alloc] initWithNibName:@"secondCanvas" bundle:nil];
-    
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[firstWorkspace, secondWorkspace];
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
-    [firstWorkspace setup];
-    [secondWorkspace setup];
     return YES;
-
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
